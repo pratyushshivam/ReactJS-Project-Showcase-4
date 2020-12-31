@@ -1,0 +1,27 @@
+.cases .row .case:hover{
+    background-color: rgb(255, 0, 0);
+}
+.cases .row .case{
+    transition: 0.9s ease-in-out;
+}
+a{
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .case-details span{
+        /* border: 2px solid red; */
+        font-size: 15px !important;
+        font-weight: 800;
+        /* margin-bottom: 10%; */
+       
+    }
+    .case-details h2{
+        /* border: 2px solid red; */
+        font-size: 25px !important;
+        line-height: 26px !important;
+        font-weight: 800;
+        margin-bottom: 40%;
+
+    }
+  }
